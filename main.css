@@ -1,18 +1,20 @@
-#container{
-    display: flex;
-    flex-wrap:wrap;
-    margin: auto;
-    width: 25%;
-    border: 3px solid green;
-    padding: 10px;
+#grid{
+height: 640px;
+width: 640px;
+display: flex;
+flex-wrap: wrap;
+background-color: lightseagreen;
+border: 5px solid black;
  
 }
-#pixelDiv{
-    flex-grow: 1;
-    height: 20px;
-    width: 20px;
-    border: 1px solid slategray;
-    background-color: lightcyan;    
+
+#grid div{
+    height: 40px;
+    width: 40px;       
+    background-color: lightsalmon;
+    border-width: thin;
+    border-style: solid;
+    border-color: slategray;
 }
 
 #headerDiv{    
