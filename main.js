@@ -15,4 +15,15 @@ function createBoard(){
 
 }
 
+
+grid.addEventListener('mouseover',function(e){
+     e.target.style.background ="grey";
+     //console.log(e.target.id);
+ })
+
+ grid.addEventListener('mouseout',function(e){
+    e.target.style.background ="lightgrey";
+    //console.log(e.target.id);
+})
+
 createBoard();

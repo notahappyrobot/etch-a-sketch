@@ -1,3 +1,8 @@
+body{
+    background-color: lightgray;
+
+}
+
 #grid{
 height: 640px;
 width: 640px;
@@ -5,6 +10,10 @@ display: flex;
 flex-wrap: wrap;
 background-color: lightseagreen;
 border: 5px solid black;
+text-align: center;
+margin: auto;
+
+
  
 }
 
@@ -12,19 +21,19 @@ border: 5px solid black;
     height: 40px;
     width: 40px;       
     background-color: lightsalmon;
-    border-width: thin;
-    border-style: solid;
-    border-color: slategray;
+
+    
+
 }
 
 #headerDiv{    
     border-style: solid;
-    border-color: lightskyblue;
+    border-color: darkred;
     width: auto;
 }
 
 #footerDiv{    
     border-style: solid;
-    border-color: lightsalmon;
+    border-color: darkcyan;
     width: auto;
 }
