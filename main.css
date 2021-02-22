@@ -1,6 +1,6 @@
-body{
-    background-color: lightgray;
 
+#clearBtn{
+    margin: auto;
 }
 
 #grid{
@@ -18,11 +18,12 @@ margin: auto;
 }
 
 #grid div{
+    /* 
     height: 40px;
-    width: 40px;       
-    background-color: lightsalmon;
-
-    
+    width: 40px;
+    */
+    background-color: skyblue;
+  
 
 }
 
@@ -30,6 +31,7 @@ margin: auto;
     border-style: solid;
     border-color: darkred;
     width: auto;
+    display: flex;
 }
 
 #footerDiv{    
