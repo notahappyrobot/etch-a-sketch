@@ -11,11 +11,15 @@ let squares = [];
 // create board
 function createBoard(){
 
-    width = prompt("how big a grid do you want? (min:16 - max:100");
+    width = prompt(`How big a grid do you want? (min:16 - max:100)`);
+    
+    while(width < 16 || width > 100){
+        console.log(`${width} is outwith parameters`);
+        width = prompt(`Sorry, your grid must be between 16 & 100 in size:
+How big a grid do you want? (min:16 - max:100`);
+    }
         
-    for(let i=0;i<width*width;i++)
-        {
-
+    for(let i=0;i<width*width;i++){
             let square = document.createElement('div');
             squareHeight = 640/width;//40
             squareWidth = 640/width;//40
@@ -34,6 +38,7 @@ function createBoard(){
             squares.push(square);  
 
         } 
+
     console.log(`New board created with a grid ${width} x ${width}`);
 
 }
